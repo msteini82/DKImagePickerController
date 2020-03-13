@@ -8,7 +8,6 @@
 
 import UIKit
 import MobileCoreServices
-import DKImagePickerController
 
 open class CustomCameraExtension: DKImageBaseExtension, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
