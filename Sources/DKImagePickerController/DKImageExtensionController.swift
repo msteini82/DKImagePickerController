@@ -45,11 +45,11 @@ open class DKImageBaseExtension: NSObject, DKImageExtensionProtocol {
         self.context = context
     }
     
-    @objc open dynamic func perform(with extraInfo: [AnyHashable : Any]) {
+    @objc public dynamic func perform(with extraInfo: [AnyHashable : Any]) {
         fatalError("This method must be overridden.")
     }
     
-    @objc open dynamic func finish() {
+    @objc public dynamic func finish() {
         fatalError("This method must be overridden.")
     }
     
